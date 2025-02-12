@@ -22,3 +22,23 @@ body {
     max-width: 500px; 
     height: auto; 
 }
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.proceed-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.proceed-btn:hover {
+    background-color: #45a049;
+}
